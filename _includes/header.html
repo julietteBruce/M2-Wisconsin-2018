@@ -2,8 +2,15 @@
 
 
 <ul class="nav nav-pills pull-right">
-		<li class="{{ page.projects }}"><a href="/projects" title="Projects">Projects</a></li>
-		<li class="{{ page.participants }}"><a href="/participants" title="Participants">Registration</a></li>
+		<li class="dropdown">
+		<a class="dropdown-toggle" data-toggle="dropdown" href="#">About
+    	<span class="caret"></span></a>
+    	<ul class="dropdown-menu">
+    		<li class="{{ page.purpose }}"><a href="/purpose" title="Purpose">Purpose</a></li>
+      		<li class="{{ page.projects }}"><a href="/projects" title="Projects">Projects</a></li>
+      		<li class="{{ page.participants }}"><a href="/participants" title="Presentations">Participants</a></li>
+    	</ul>
+  		</li>
 		<li class="{{ page.registration }}"><a href="/registration" title="Registration">Registration</a></li>
 		<li class="{{ page.local }}"><a href="/travel" title="Travel">Local Info</a></li>
 		<li class="{{ page.contact }}"><a href="/contact" title="Contact">Contact</a></li>
