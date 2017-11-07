@@ -25,11 +25,11 @@ on chain complexes [1]. This proof underscored the
 significance of allowing functorial operations on chain complexes, and
 it led to the development of the Macaulay2 package
 ChainComplexOperations by David Eisenbud, which implemented functions
-for computing \(\bigwedge^2\) and \(\Sym_2\) of chain complexes.  This
+for computing \(\bigwedge^2\) and \(\Sym_2\) of chain complexes. This
 project will significantly expand this line of thinking by allowing one
-to apply a  Schur functors \(\bS_{\lambda}\) to a chain complex.  Beyond
+to apply a  Schur functors \(\bS_{\lambda}\) to a chain complex. Beyond
 the connection with Walker's groundbreaking work, these operations are
-fundamental in homological commutative algebra.  This will further
+fundamental in homological commutative algebra. This will further
 strengthen Macaulay2's already impressive computational tools in
 homological commutative aglebra.
 <br>
@@ -57,20 +57,45 @@ This project will be organized by
 <a href="https://sites.google.com/wisc.edu/jwg/home">John Wiltshire-Gordon</a>
 . FI-modules have become objects of interest in
 recent years, with applications to representation stability (see
-~\cites{church-ellenberg, cef, cefn,jimenez,wilson} to name a few recent
+~[1,2,3,4,5] to name a few recent
 publications).  This project aims to produce the first algorithms for
-computing with FI-modules.  An FI-module may be described by an
+computing with FI-modules. An FI-module may be described by an
 FI-matrix over the cateogry \(\text{FI}\).  This project will
 implement two basic operations on FI-matrices: finding generators for
-kernels, and solving the equation \(AX=B\).  These operations can be used
+kernels, and solving the equation \(AX=B\). These operations can be used
 to compute \(\text{Tor}\) for FI-modules, and also Hilbert series, and those
 will be implemented as well. The algorithm over \(\mathbb Q\) relies on
 the quiver computation of Sam-Snowden, and the algorithm over \(\mathbb
 Z\) relies on the Castelnuovo-Mumford regularity result of
-Church-Ellenberg~\cite{church-ellenberg}.  This package will allow
+Church-Ellenberg [1]. This package will allow
 researchers to begin experimenting with FI-modules, with the hope of
 finding further generalizations of results like Church-Ellenberg's
-regularity result.</div>
+regularity result.
+<br>
+<br>
+<ol>
+<li>
+Thomas Church and Jordan S. Ellenberg, <i>Homology of FI-modules</i>, Geom. Topol. <b>21</b> (2017), no. 4, 2373–2418. MR3654111
+<a href="https://projecteuclid.org/euclid.gt/1508437644">doi:10.2140/gt.2017.21.2373</a>.
+</li>
+<li>
+Thomas Church, Jordan S. Ellenberg, and Benson Farb, <i>FI-modules and stability for representations of symmetric groups</i>, Duke Math. J. <b>164</b> (2015), no. 9, 1833–1910. MR3357185
+<a href="https://projecteuclid.org/euclid.dmj/1434377462">doi:10.1215/00127094-3120274</a>.
+</li>
+<li>
+Thomas Church, Jordan S. Ellenberg, Benson Farb, and Rohit Nagpal, <i>FI-modules over Noetherian rings</i>, Geom. Topol. <b>18</b> (2014), no. 5, 2951–2984. MR3285226 
+<a href="https://msp.org/gt/2014/18-5/p06.xhtml">doi:10.2140/gt.2014.18.2951</a>.
+</li>
+<li>
+Rita Jim&eacute;nez Rolland, <i>The cohomology of \(\mathcal{M}_{0,n}\) as an FI-module</i>, Configuration spaces, Springer INdAM Ser., vol. 14, Springer, [Cham], 2016, pp. 313–323. MR3615738
+<a href="https://link.springer.com/chapter/10.1007/978-3-319-31580-5_13">doi:10.1007/978.3.319.31580</a>.
+</li>
+<li>
+Jennifer C. H. Wilson, <i>FIW-modules and constraints on classical Weyl group characters</i>, Math. Z. <b>281</b> (2015), no. 1-2, 1–42. MR3384861
+<a href="https://link.springer.com/article/10.1007/s00209-015-1473-0">doi:10.1007/s00209.015.1473.0</a>.
+</li>
+</ol>
+</div>
 </div>
 </div>
 
@@ -87,10 +112,10 @@ and <a href="https://sites.google.com/site/uwwanlin/">Wanlin Li</a>.  Macaulay2 
 the central computational tool for number theorists, with Magma and SAGE
 generally being preferred.  However, certain aspects of modern number
 theory and arithmetic geometry involve homological computations about
-polynomial rings, which Macaulay2 is particularly strong at.  One unique
+polynomial rings, which Macaulay2 is particularly strong at. One unique
 aspect of this Macaulay2 meeting will be a series of discussions between
 the number theory community at Wisconsin--which is large and
-active--with key figures in the Macaulay2 community.  The goal of these
+active--with key figures in the Macaulay2 community. The goal of these
 discussions will be to seek out areas that Macaulay2 could expand on its
 current strengths and that would be useful to arithmetic geometers. 
 Specifically, Ellenberg has proposed developing a package related to
@@ -112,12 +137,12 @@ for computing zeta functions of projective varieties.</div>
  and <a href="https://www.math.wisc.edu/~yangjay/">Jay Yang</a>.
   Two separate groups
 produced recent work on models for random monomial
-ideals [1,2].  A current collaborative effort of these
+ideals [1,2]. A current collaborative effort of these
 two groups aims to better understand critical region phenomena between
-the dimension jumps in the model of [1].  Early experiments
+the dimension jumps in the model of [1]. Early experiments
 suggest that, in the limit, the ideals in these critical regions behave
 like analogues of fractals, and that we should think of limiting
-dimension as being somewhere strictly between two integers.  To better
+dimension as being somewhere strictly between two integers. To better
 understand this phenomena, and to open the door for further
 experimentation of other groups of researchers, this project will
 develop a package around the random monomial ideals of [1]. 
