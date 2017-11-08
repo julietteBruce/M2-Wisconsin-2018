@@ -113,6 +113,6 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
   font-size: 90%;
 }
 
-.vertical-center {
-    vertical-align: middle !important;
+.table > tbody > tr > td {
+     vertical-align: middle;
 }
