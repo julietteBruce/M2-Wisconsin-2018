@@ -112,3 +112,7 @@ pre.prettyprint { padding: 10px !important; margin: 40px; font-size: 12px;}
   font-family: 'Merriweather', Georgia, Time;
   font-size: 90%;
 }
+
+.vertical-center {
+    vertical-align: middle !important;
+}
